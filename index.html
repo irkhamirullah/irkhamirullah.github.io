@@ -27,6 +27,9 @@
 
 				<!-- Section 1: About Me -->
 					<section id="one">
+						<!-- Tombol Google Translate ditaruh di sini -->
+						<div id="google_translate_element" style="margin-bottom: 25px;"></div>
+
 						<header class="major">
 							<h2>Irkham Amirullah</h2>
 							<p style="font-size: 1.2em; color: #787878; margin-top: -10px;">Senior Electrical Engineer & Industrial Maintenance Specialist</p>
@@ -98,7 +101,7 @@
 			<footer id="footer">
 				<div class="inner">
 					<ul class="copyright">
-						<li>&copy; Irchuminati - Electrical Engineer Portfolio</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; Irkham Amirullah - Electrical Engineer Portfolio</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</div>
 			</footer>
@@ -110,6 +113,18 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+		<!-- Script Google Translate -->
+			<script type="text/javascript">
+			function googleTranslateElementInit() {
+			  new google.translate.TranslateElement({
+			    pageLanguage: 'en',
+			    includedLanguages: 'id,en',
+			    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+			  }, 'google_translate_element');
+			}
+			</script>
+			<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 	</body>
 </html>
